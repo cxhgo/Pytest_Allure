@@ -1,0 +1,41 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testecase.case",
+    "children" : [ {
+      "name" : "test_test",
+      "children" : [ {
+        "name" : "Testtest",
+        "children" : [ {
+          "name" : "用户信息",
+          "uid" : "a6d48a88c44a00f2",
+          "parentUid" : "d57f4cf840ab94bf1b753b7b4f681716",
+          "status" : "passed",
+          "time" : {
+            "start" : 1607939769491,
+            "stop" : 1607939770605,
+            "duration" : 1114
+          },
+          "flaky" : false,
+          "parameters" : [ "{'url': 'https://sandbox-app-api.yiqiwen.cn/v1/user/information', 'method': 'get', 'data': 'None', 'header': {'YQW-Token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC95ZGFwaS5saW5naGl0LmNvbSIsImF1ZCI6IjE1NTE3NzM1MTUwMDAwMDA4MCIsImlhdCI6MTYwMzg1NTAzMiwiZXhwIjoxNjM1MzkxMDMyfQ.rx2wMPWcpwzUzKHgCkF3rxS8DCBDaLThyOV98I7sSAs', 'API-Version': 'v1', 'App': 'Android_Lingji_Dashi', 'Authorization': 'hmac username=\"android_lingjidashi\",algorithm=\"hmac-sha1\",headers=\"date request-line\",signature=\"OLvbrtAA7p0bkhsuhuZT2nRBgrk=\"', 'User-Agent': 'Mozilla/5.0 (Linux; U; Android 6.0; zh-cn; Redmi Note 4X Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36', 'AppID': '10086', 'Version': '2.0.0', 'System': 'Xiaomi#Redmi Note 4X#nikel#23#6.0', 'Channel': 'lingji_teacher', 'DeviceId': '4c672cf4c2693bb6', 'platform': '23', 'Host': 'sandbox-app-api.yiqiwen.cn', 'Package-Name': 'com.mmc.linghit'}, 'validate': \"[{'eq': ['status_code', 200]}, {'eq': ['content.msg', '处理成功']}]\", 'relevance': \"{'uid': 'content.data'}\"}", "'用户信息'" ]
+        }, {
+          "name" : "我的社群课程",
+          "uid" : "c82e2765c920f151",
+          "parentUid" : "d57f4cf840ab94bf1b753b7b4f681716",
+          "status" : "passed",
+          "time" : {
+            "start" : 1607939770620,
+            "stop" : 1607939770972,
+            "duration" : 352
+          },
+          "flaky" : false,
+          "parameters" : [ "{'url': 'https://sandbox-app-api.yiqiwen.cn/v1/community/course/my/list', 'method': 'get', 'data': \"{'json': {'uid': '$uid', 'page': '1'}}\", 'header': {'YQW-Token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC95ZGFwaS5saW5naGl0LmNvbSIsImF1ZCI6IjE1NTE3NzM1MTUwMDAwMDA4MCIsImlhdCI6MTYwMzg1NTAzMiwiZXhwIjoxNjM1MzkxMDMyfQ.rx2wMPWcpwzUzKHgCkF3rxS8DCBDaLThyOV98I7sSAs', 'API-Version': 'v1', 'App': 'Android_Lingji_Dashi', 'Authorization': 'hmac username=\"android_lingjidashi\",algorithm=\"hmac-sha1\",headers=\"date request-line\",signature=\"OLvbrtAA7p0bkhsuhuZT2nRBgrk=\"', 'User-Agent': 'Mozilla/5.0 (Linux; U; Android 6.0; zh-cn; Redmi Note 4X Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36', 'AppID': '10086', 'Version': '2.0.0', 'System': 'Xiaomi#Redmi Note 4X#nikel#23#6.0', 'Channel': 'lingji_teacher', 'DeviceId': '4c672cf4c2693bb6', 'platform': '23', 'Host': 'sandbox-app-api.yiqiwen.cn', 'Package-Name': 'com.mmc.linghit'}, 'validate': \"[{'eq': ['status_code', 200]}, {'eq': ['content.msg', '处理成功']}]\", 'variables_data': ['uid'], 'variables': \"[{'testcopy': ['uid']}]\"}", "'我的社群课程'" ]
+        } ],
+        "uid" : "d57f4cf840ab94bf1b753b7b4f681716"
+      } ],
+      "uid" : "4b469129a65dc20fd699d5c35c366724"
+    } ],
+    "uid" : "681a1cefde4bce84dac51028cefa89af"
+  } ]
+}

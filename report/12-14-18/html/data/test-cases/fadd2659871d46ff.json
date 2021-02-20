@@ -1,0 +1,172 @@
+{
+  "uid" : "fadd2659871d46ff",
+  "name" : "我的社群课程",
+  "fullName" : "testecase.case.test_test.Testtest#test_example",
+  "historyId" : "3e05bb4bb12e572d5a0819ff7ec5e56a",
+  "time" : {
+    "start" : 1607941852124,
+    "stop" : 1607941852402,
+    "duration" : 278
+  },
+  "description" : "测试用例",
+  "descriptionHtml" : "<p>测试用例</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "测试用例",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "请求信息",
+      "time" : {
+        "start" : 1607941852132,
+        "stop" : 1607941852313,
+        "duration" : 181
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2e493d5bb1e99ef6",
+        "name" : "请求地址：",
+        "source" : "2e493d5bb1e99ef6.attach",
+        "type" : "text/plain",
+        "size" : 54
+      }, {
+        "uid" : "7bebed238064a384",
+        "name" : "请求方法",
+        "source" : "7bebed238064a384.attach",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "4aa8903cdf5ee96e",
+        "name" : "请求头：",
+        "source" : "4aa8903cdf5ee96e.attach",
+        "type" : "text/plain",
+        "size" : 824
+      }, {
+        "uid" : "39d5d2aa2c21d85c",
+        "name" : "请求data：",
+        "source" : "39d5d2aa2c21d85c.attach",
+        "type" : "text/plain",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "请求信息",
+      "time" : {
+        "start" : 1607941852320,
+        "stop" : 1607941852394,
+        "duration" : 74
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "be74491623dfb7ea",
+        "name" : "请求地址：",
+        "source" : "be74491623dfb7ea.attach",
+        "type" : "text/plain",
+        "size" : 62
+      }, {
+        "uid" : "d14976127a6cc097",
+        "name" : "请求方法",
+        "source" : "d14976127a6cc097.attach",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "49e9868e87ac17e3",
+        "name" : "请求头：",
+        "source" : "49e9868e87ac17e3.attach",
+        "type" : "text/plain",
+        "size" : 824
+      }, {
+        "uid" : "ff2484f2f0e4c268",
+        "name" : "请求data：",
+        "source" : "ff2484f2f0e4c268.attach",
+        "type" : "text/plain",
+        "size" : 28
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "10f525b2f1e2b472",
+      "name" : "log",
+      "source" : "10f525b2f1e2b472.txt",
+      "type" : "text/plain",
+      "size" : 177
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "接口测试"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "test接口"
+  }, {
+    "name" : "story",
+    "value" : "听芝部分接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testecase.case"
+  }, {
+    "name" : "suite",
+    "value" : "test_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testtest"
+  }, {
+    "name" : "host",
+    "value" : "6AALIUSAHJS1WHR"
+  }, {
+    "name" : "thread",
+    "value" : "3556-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testecase.case.test_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "param",
+    "value" : "{'url': 'https://sandbox-app-api.yiqiwen.cn/v1/community/course/my/list', 'method': 'get', 'data': \"{'json': {'uid': '$uid', 'page': '1'}}\", 'header': {'YQW-Token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC95ZGFwaS5saW5naGl0LmNvbSIsImF1ZCI6IjE1NTE3NzM1MTUwMDAwMDA4MCIsImlhdCI6MTYwMzg1NTAzMiwiZXhwIjoxNjM1MzkxMDMyfQ.rx2wMPWcpwzUzKHgCkF3rxS8DCBDaLThyOV98I7sSAs', 'API-Version': 'v1', 'App': 'Android_Lingji_Dashi', 'Authorization': 'hmac username=\"android_lingjidashi\",algorithm=\"hmac-sha1\",headers=\"date request-line\",signature=\"OLvbrtAA7p0bkhsuhuZT2nRBgrk=\"', 'User-Agent': 'Mozilla/5.0 (Linux; U; Android 6.0; zh-cn; Redmi Note 4X Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36', 'AppID': '10086', 'Version': '2.0.0', 'System': 'Xiaomi#Redmi Note 4X#nikel#23#6.0', 'Channel': 'lingji_teacher', 'DeviceId': '4c672cf4c2693bb6', 'platform': '23', 'Host': 'sandbox-app-api.yiqiwen.cn', 'Package-Name': 'com.mmc.linghit'}, 'validate': \"[{'eq': ['status_code', 200]}, {'eq': ['content.msg', '处理成功']}]\", 'variables_data': ['uid'], 'variables': \"[{'testcopy': ['uid']}]\"}"
+  }, {
+    "name" : "title",
+    "value" : "'我的社群课程'"
+  } ],
+  "links" : [ {
+    "name" : "baidu",
+    "url" : "http://localhost:63342/API_Pytest-master/report/12-14-18/html/index.html",
+    "type" : "link"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fadd2659871d46ff.json",
+  "parameterValues" : [ "{'url': 'https://sandbox-app-api.yiqiwen.cn/v1/community/course/my/list', 'method': 'get', 'data': \"{'json': {'uid': '$uid', 'page': '1'}}\", 'header': {'YQW-Token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC95ZGFwaS5saW5naGl0LmNvbSIsImF1ZCI6IjE1NTE3NzM1MTUwMDAwMDA4MCIsImlhdCI6MTYwMzg1NTAzMiwiZXhwIjoxNjM1MzkxMDMyfQ.rx2wMPWcpwzUzKHgCkF3rxS8DCBDaLThyOV98I7sSAs', 'API-Version': 'v1', 'App': 'Android_Lingji_Dashi', 'Authorization': 'hmac username=\"android_lingjidashi\",algorithm=\"hmac-sha1\",headers=\"date request-line\",signature=\"OLvbrtAA7p0bkhsuhuZT2nRBgrk=\"', 'User-Agent': 'Mozilla/5.0 (Linux; U; Android 6.0; zh-cn; Redmi Note 4X Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36', 'AppID': '10086', 'Version': '2.0.0', 'System': 'Xiaomi#Redmi Note 4X#nikel#23#6.0', 'Channel': 'lingji_teacher', 'DeviceId': '4c672cf4c2693bb6', 'platform': '23', 'Host': 'sandbox-app-api.yiqiwen.cn', 'Package-Name': 'com.mmc.linghit'}, 'validate': \"[{'eq': ['status_code', 200]}, {'eq': ['content.msg', '处理成功']}]\", 'variables_data': ['uid'], 'variables': \"[{'testcopy': ['uid']}]\"}", "'我的社群课程'" ]
+}

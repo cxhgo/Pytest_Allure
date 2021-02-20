@@ -1,0 +1,21 @@
+[ {
+  "uid" : "13d7287bdcb412c",
+  "name" : "用户信息",
+  "time" : {
+    "start" : 1604549002374,
+    "stop" : 1604549002913,
+    "duration" : 539
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b7c5bc85476f6e2",
+  "name" : "支付信息",
+  "time" : {
+    "start" : 1604549002918,
+    "stop" : 1604549002958,
+    "duration" : 40
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

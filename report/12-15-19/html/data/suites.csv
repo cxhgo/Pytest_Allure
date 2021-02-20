@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Dec 15 19:03:33 CST 2020","Tue Dec 15 19:03:33 CST 2020","283","父节点testcase/case","测试套test_test.py","子测试套:类Testtest","","","我的社群课程","我的社群课程"
+"passed","Tue Dec 15 19:03:32 CST 2020","Tue Dec 15 19:03:33 CST 2020","652","父节点testcase/case","测试套test_test.py","子测试套:类Testtest","","","用户信息","用户信息"

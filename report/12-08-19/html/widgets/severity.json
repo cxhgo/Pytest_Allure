@@ -1,0 +1,21 @@
+[ {
+  "uid" : "46f2445c2f5c8ea5",
+  "name" : "我的社群课程",
+  "time" : {
+    "start" : 1607426773239,
+    "stop" : 1607426773622,
+    "duration" : 383
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dc6a322a4a6bf415",
+  "name" : "用户信息",
+  "time" : {
+    "start" : 1607426772342,
+    "stop" : 1607426773231,
+    "duration" : 889
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

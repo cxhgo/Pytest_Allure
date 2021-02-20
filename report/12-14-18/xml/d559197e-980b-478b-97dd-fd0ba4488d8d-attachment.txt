@@ -1,0 +1,1 @@
+ERROR    root:com_assert.py:233 content判断失败或响应文本不是json格式，判断类型是eq, 预期值：处理成功, content的key是：msg,实际值：处理成功

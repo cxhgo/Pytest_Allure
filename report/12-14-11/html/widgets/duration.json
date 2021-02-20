@@ -1,0 +1,41 @@
+[ {
+  "uid" : "435fbd493d1ac78d",
+  "name" : "我的社群课程",
+  "time" : {
+    "start" : 1607918353175,
+    "stop" : 1607918353473,
+    "duration" : 298
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "593106e931c8397a",
+  "name" : "我的社群课程",
+  "time" : {
+    "start" : 1607917162172,
+    "stop" : 1607917162459,
+    "duration" : 287
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ccf1c8919c1a3795",
+  "name" : "用户信息",
+  "time" : {
+    "start" : 1607917161376,
+    "stop" : 1607917162152,
+    "duration" : 776
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed49317e36e80b7",
+  "name" : "用户信息",
+  "time" : {
+    "start" : 1607918352375,
+    "stop" : 1607918353151,
+    "duration" : 776
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

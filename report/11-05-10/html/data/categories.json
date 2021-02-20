@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TypeError: exceptions must derive from BaseException",
+      "children" : [ {
+        "name" : "支付信息",
+        "uid" : "58a8dadce93ac9ef",
+        "parentUid" : "f686c92fbacb894b21fc948f0d46f177",
+        "status" : "broken",
+        "time" : {
+          "start" : 1604545039558,
+          "stop" : 1604545039589,
+          "duration" : 31
+        },
+        "flaky" : true,
+        "parameters" : [ "{'url': 'https://sandbox-lingji.jinhuiaa.com/api/payments/config', 'method': 'post', 'data': \"{'json': {'order_id': 'ZSCS159538737200000060'}}\", 'header': {'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC95ZGFwaS5saW5naGl0LmNvbSIsImF1ZCI6IjE1NzYwMzQ4MDgwMDAwMDA0MCIsImlhdCI6MTU4MzIwNDAwOSwiZXhwIjoxNjE0NzQwMDA5fQ.NWjUOE2kAaPbufulY0QdY2dFmAvRw2TtOlUcL1vW - xk'}, 'validate': \"[{'eq': ['content.msg', 'ok']}, {'contains': ['content.msg', '失败']}]\"}", "'支付信息'" ]
+      } ],
+      "uid" : "f686c92fbacb894b21fc948f0d46f177"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

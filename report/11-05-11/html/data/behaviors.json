@@ -1,0 +1,37 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "xxx",
+    "children" : [ {
+      "name" : "test接口",
+      "children" : [ {
+        "name" : "用户信息",
+        "uid" : "c019d59d7e53e891",
+        "parentUid" : "f517081c25774ae9dced12b66af18452",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604548494320,
+          "stop" : 1604548494952,
+          "duration" : 632
+        },
+        "flaky" : false,
+        "parameters" : [ "{'url': 'https://sandbox-lingji.jinhuiaa.com/yqw/api/user/info', 'method': 'get', 'data': \"{'retimestamp': '1583204192555', 'platform': '34', 'channel': ''}\", 'header': {'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC95ZGFwaS5saW5naGl0LmNvbSIsImF1ZCI6IjE1NzYwMzQ4MDgwMDAwMDA0MCIsImlhdCI6MTU4MzIwNDAwOSwiZXhwIjoxNjE0NzQwMDA5fQ.NWjUOE2kAaPbufulY0QdY2dFmAvRw2TtOlUcL1vW - xk'}, 'validate': \"[{'eq': ['status_code', 200]}]\", 'relevance': \"{'id': 'content.data'}\", 'variables': \"[{'login': ['code_value', 'data_value']}]\"}", "'用户信息'" ]
+      }, {
+        "name" : "支付信息",
+        "uid" : "7cbd26bd45f19675",
+        "parentUid" : "f517081c25774ae9dced12b66af18452",
+        "status" : "broken",
+        "time" : {
+          "start" : 1604548494957,
+          "stop" : 1604548494988,
+          "duration" : 31
+        },
+        "flaky" : true,
+        "parameters" : [ "{'url': 'https://sandbox-lingji.jinhuiaa.com/api/payments/config', 'method': 'post', 'data': \"{'json': {'order_id': 'ZSCS159538737200000060'}}\", 'header': {'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC95ZGFwaS5saW5naGl0LmNvbSIsImF1ZCI6IjE1NzYwMzQ4MDgwMDAwMDA0MCIsImlhdCI6MTU4MzIwNDAwOSwiZXhwIjoxNjE0NzQwMDA5fQ.NWjUOE2kAaPbufulY0QdY2dFmAvRw2TtOlUcL1vW - xk'}, 'validate': \"[{'eq': ['content.msg', 'ok']}, {'contains': ['content.msg', '失败']}]\"}", "'支付信息'" ]
+      } ],
+      "uid" : "f517081c25774ae9dced12b66af18452"
+    } ],
+    "uid" : "2d843aa5d4024cb700417132a1aec31c"
+  } ]
+}

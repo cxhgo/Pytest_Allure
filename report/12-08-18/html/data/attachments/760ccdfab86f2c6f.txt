@@ -1,0 +1,2 @@
+INFO     root:com_assert.py:238 content判断失败或响应文本不是json格式，判断类型是eq, 预期值：ok, content的key是：msg,实际值：
+ERROR    root:com_manage.py:200 异常判断类型：{key},判断值是{value}，响应数据是{response.content}

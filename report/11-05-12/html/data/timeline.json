@@ -1,0 +1,37 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "6AALIUSAHJS1WHR",
+    "children" : [ {
+      "name" : "5900-MainThread",
+      "children" : [ {
+        "name" : "用户信息",
+        "uid" : "13d7287bdcb412c",
+        "parentUid" : "4c1637d358b20198aa35e1be42c29d18",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604549002374,
+          "stop" : 1604549002913,
+          "duration" : 539
+        },
+        "flaky" : false,
+        "parameters" : [ "{'url': 'https://sandbox-lingji.jinhuiaa.com/yqw/api/user/info', 'method': 'get', 'data': \"{'retimestamp': '1583204192555', 'platform': '34', 'channel': ''}\", 'header': {'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC95ZGFwaS5saW5naGl0LmNvbSIsImF1ZCI6IjE1NzYwMzQ4MDgwMDAwMDA0MCIsImlhdCI6MTU4MzIwNDAwOSwiZXhwIjoxNjE0NzQwMDA5fQ.NWjUOE2kAaPbufulY0QdY2dFmAvRw2TtOlUcL1vW - xk'}, 'validate': \"[{'eq': ['status_code', 200]}]\", 'relevance': \"{'id': 'content.data'}\", 'variables': \"[{'login': ['code_value', 'data_value']}]\"}", "'用户信息'" ]
+      }, {
+        "name" : "支付信息",
+        "uid" : "2b7c5bc85476f6e2",
+        "parentUid" : "4c1637d358b20198aa35e1be42c29d18",
+        "status" : "broken",
+        "time" : {
+          "start" : 1604549002918,
+          "stop" : 1604549002958,
+          "duration" : 40
+        },
+        "flaky" : true,
+        "parameters" : [ "{'url': 'https://sandbox-lingji.jinhuiaa.com/api/payments/config', 'method': 'post', 'data': \"{'json': {'order_id': 'ZSCS159538737200000060'}}\", 'header': {'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC95ZGFwaS5saW5naGl0LmNvbSIsImF1ZCI6IjE1NzYwMzQ4MDgwMDAwMDA0MCIsImlhdCI6MTU4MzIwNDAwOSwiZXhwIjoxNjE0NzQwMDA5fQ.NWjUOE2kAaPbufulY0QdY2dFmAvRw2TtOlUcL1vW - xk'}, 'validate': \"[{'eq': ['content.msg', 'ok']}, {'contains': ['content.msg', '失败']}]\"}", "'支付信息'" ]
+      } ],
+      "uid" : "4c1637d358b20198aa35e1be42c29d18"
+    } ],
+    "uid" : "2fd42e43379a650dd0c88eaddd9e6198"
+  } ]
+}

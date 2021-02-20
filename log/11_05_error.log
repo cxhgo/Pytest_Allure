@@ -1,0 +1,68 @@
+2020-11-05 11:37:37-root-com_assert.py-[line:238]-INFO-[日志信息] ==> content判断失败或响应文本不是json格式，判断类型是eq, 预期值：ok, content的key是：msg,实际值：
+2020-11-05 11:37:37-root-com_manage.py-[line:199]-ERROR-[日志信息] ==> 异常判断类型：{key},判断值是{value}，响应数据是{response.content}
+2020-11-05 11:44:52-root-com_assert.py-[line:238]-INFO-[日志信息] ==> content判断失败或响应文本不是json格式，判断类型是eq, 预期值：ok, content的key是：msg,实际值：
+content鍒ゆ柇澶辫触鎴栧搷搴旀枃鏈笉鏄痡son鏍煎紡锛屽垽鏂被鍨嬫槸eq, 棰勬湡鍊硷細ok, content鐨刱ey鏄細msg,瀹為檯鍊硷細
+content鍒ゆ柇澶辫触鎴栧搷搴旀枃鏈笉鏄痡son鏍煎紡锛屽垽鏂被鍨嬫槸eq, 棰勬湡鍊硷細ok, content鐨刱ey鏄細msg,瀹為檯鍊硷細
+content鍒ゆ柇澶辫触鎴栧搷搴旀枃鏈笉鏄痡son鏍煎紡锛屽垽鏂被鍨嬫槸eq, 棰勬湡鍊硷細ok, content鐨刱ey鏄細msg,瀹為檯鍊硷細
+content鍒ゆ柇澶辫触鎴栧搷搴旀枃鏈笉鏄痡son鏍煎紡锛屽垽鏂被鍨嬫槸eq, 棰勬湡鍊硷細ok, content鐨刱ey鏄細msg,瀹為檯鍊硷細
+content鍒ゆ柇澶辫触鎴栧搷搴旀枃鏈笉鏄痡son鏍煎紡锛屽垽鏂被鍨嬫槸eq, 棰勬湡鍊硷細ok, content鐨刱ey鏄細msg,瀹為檯鍊硷細
+content鍒ゆ柇澶辫触鎴栧搷搴旀枃鏈笉鏄痡son鏍煎紡锛屽垽鏂被鍨嬫槸eq, 棰勬湡鍊硷細ok, content鐨刱ey鏄細msg,瀹為檯鍊硷細
+content鍒ゆ柇澶辫触鎴栧搷搴旀枃鏈笉鏄痡son鏍煎紡锛屽垽鏂被鍨嬫槸eq, 棰勬湡鍊硷細ok, content鐨刱ey鏄細msg,瀹為檯鍊硷細
+content鍒ゆ柇澶辫触鎴栧搷搴旀枃鏈笉鏄痡son鏍煎紡锛屽垽鏂被鍨嬫槸eq, 棰勬湡鍊硷細ok, content鐨刱ey鏄細msg,瀹為檯鍊硷細
+content鍒ゆ柇澶辫触鎴栧搷搴旀枃鏈笉鏄痡son鏍煎紡锛屽垽鏂被鍨嬫槸eq, 棰勬湡鍊硷細ok, content鐨刱ey鏄細msg,瀹為檯鍊硷細
+content鍒ゆ柇澶辫触鎴栧搷搴旀枃鏈笉鏄痡son鏍煎紡锛屽垽鏂被鍨嬫槸eq, 棰勬湡鍊硷細ok, content鐨刱ey鏄細msg,瀹為檯鍊硷細
+2020-11-05 11:44:52-root-com_manage.py-[line:199]-ERROR-[日志信息] ==> 异常判断类型：{key},判断值是{value}，响应数据是{response.content}
+寮傚父鍒ゆ柇绫诲瀷锛歿key},鍒ゆ柇鍊兼槸{value}锛屽搷搴旀暟鎹槸{response.content}
+寮傚父鍒ゆ柇绫诲瀷锛歿key},鍒ゆ柇鍊兼槸{value}锛屽搷搴旀暟鎹槸{response.content}
+寮傚父鍒ゆ柇绫诲瀷锛歿key},鍒ゆ柇鍊兼槸{value}锛屽搷搴旀暟鎹槸{response.content}
+寮傚父鍒ゆ柇绫诲瀷锛歿key},鍒ゆ柇鍊兼槸{value}锛屽搷搴旀暟鎹槸{response.content}
+寮傚父鍒ゆ柇绫诲瀷锛歿key},鍒ゆ柇鍊兼槸{value}锛屽搷搴旀暟鎹槸{response.content}
+寮傚父鍒ゆ柇绫诲瀷锛歿key},鍒ゆ柇鍊兼槸{value}锛屽搷搴旀暟鎹槸{response.content}
+寮傚父鍒ゆ柇绫诲瀷锛歿key},鍒ゆ柇鍊兼槸{value}锛屽搷搴旀暟鎹槸{response.content}
+寮傚父鍒ゆ柇绫诲瀷锛歿key},鍒ゆ柇鍊兼槸{value}锛屽搷搴旀暟鎹槸{response.content}
+寮傚父鍒ゆ柇绫诲瀷锛歿key},鍒ゆ柇鍊兼槸{value}锛屽搷搴旀暟鎹槸{response.content}
+寮傚父鍒ゆ柇绫诲瀷锛歿key},鍒ゆ柇鍊兼槸{value}锛屽搷搴旀暟鎹槸{response.content}
+2020-11-05 11:54:54-root-com_assert.py-[line:238]-INFO-[日志信息] ==> content判断失败或响应文本不是json格式，判断类型是eq, 预期值：ok, content的key是：msg,实际值：
+2020-11-05 11:54:54-root-com_manage.py-[line:199]-ERROR-[日志信息] ==> 异常判断类型：{key},判断值是{value}，响应数据是{response.content}
+2020-11-05 12:00:29-root-com_assert.py-[line:238]-INFO-[日志信息] ==> content判断失败或响应文本不是json格式，判断类型是eq, 预期值：ok, content的key是：msg,实际值：
+2020-11-05 12:00:29,017 - INFO - content鍒ゆ柇澶辫触鎴栧搷搴旀枃鏈笉鏄痡son鏍煎紡锛屽垽鏂被鍨嬫槸eq, 棰勬湡鍊硷細ok, content鐨刱ey鏄細msg,瀹為檯鍊硷細
+2020-11-05 12:00:29,017 - INFO - content鍒ゆ柇澶辫触鎴栧搷搴旀枃鏈笉鏄痡son鏍煎紡锛屽垽鏂被鍨嬫槸eq, 棰勬湡鍊硷細ok, content鐨刱ey鏄細msg,瀹為檯鍊硷細
+2020-11-05 12:00:29,017 - INFO - content鍒ゆ柇澶辫触鎴栧搷搴旀枃鏈笉鏄痡son鏍煎紡锛屽垽鏂被鍨嬫槸eq, 棰勬湡鍊硷細ok, content鐨刱ey鏄細msg,瀹為檯鍊硷細
+2020-11-05 12:00:29,017 - INFO - content鍒ゆ柇澶辫触鎴栧搷搴旀枃鏈笉鏄痡son鏍煎紡锛屽垽鏂被鍨嬫槸eq, 棰勬湡鍊硷細ok, content鐨刱ey鏄細msg,瀹為檯鍊硷細
+2020-11-05 12:00:29,017 - INFO - content鍒ゆ柇澶辫触鎴栧搷搴旀枃鏈笉鏄痡son鏍煎紡锛屽垽鏂被鍨嬫槸eq, 棰勬湡鍊硷細ok, content鐨刱ey鏄細msg,瀹為檯鍊硷細
+2020-11-05 12:00:29,017 - INFO - content鍒ゆ柇澶辫触鎴栧搷搴旀枃鏈笉鏄痡son鏍煎紡锛屽垽鏂被鍨嬫槸eq, 棰勬湡鍊硷細ok, content鐨刱ey鏄細msg,瀹為檯鍊硷細
+2020-11-05 12:00:29,017 - INFO - content鍒ゆ柇澶辫触鎴栧搷搴旀枃鏈笉鏄痡son鏍煎紡锛屽垽鏂被鍨嬫槸eq, 棰勬湡鍊硷細ok, content鐨刱ey鏄細msg,瀹為檯鍊硷細
+2020-11-05 12:00:29,017 - INFO - content鍒ゆ柇澶辫触鎴栧搷搴旀枃鏈笉鏄痡son鏍煎紡锛屽垽鏂被鍨嬫槸eq, 棰勬湡鍊硷細ok, content鐨刱ey鏄細msg,瀹為檯鍊硷細
+2020-11-05 12:00:29,017 - INFO - content鍒ゆ柇澶辫触鎴栧搷搴旀枃鏈笉鏄痡son鏍煎紡锛屽垽鏂被鍨嬫槸eq, 棰勬湡鍊硷細ok, content鐨刱ey鏄細msg,瀹為檯鍊硷細
+2020-11-05 12:00:29,017 - INFO - content鍒ゆ柇澶辫触鎴栧搷搴旀枃鏈笉鏄痡son鏍煎紡锛屽垽鏂被鍨嬫槸eq, 棰勬湡鍊硷細ok, content鐨刱ey鏄細msg,瀹為檯鍊硷細
+2020-11-05 12:00:29-root-com_manage.py-[line:199]-ERROR-[日志信息] ==> 异常判断类型：{key},判断值是{value}，响应数据是{response.content}
+2020-11-05 12:00:29,017 - ERROR - 寮傚父鍒ゆ柇绫诲瀷锛歿key},鍒ゆ柇鍊兼槸{value}锛屽搷搴旀暟鎹槸{response.content}
+2020-11-05 12:00:29,017 - ERROR - 寮傚父鍒ゆ柇绫诲瀷锛歿key},鍒ゆ柇鍊兼槸{value}锛屽搷搴旀暟鎹槸{response.content}
+2020-11-05 12:00:29,017 - ERROR - 寮傚父鍒ゆ柇绫诲瀷锛歿key},鍒ゆ柇鍊兼槸{value}锛屽搷搴旀暟鎹槸{response.content}
+2020-11-05 12:00:29,017 - ERROR - 寮傚父鍒ゆ柇绫诲瀷锛歿key},鍒ゆ柇鍊兼槸{value}锛屽搷搴旀暟鎹槸{response.content}
+2020-11-05 12:00:29,017 - ERROR - 寮傚父鍒ゆ柇绫诲瀷锛歿key},鍒ゆ柇鍊兼槸{value}锛屽搷搴旀暟鎹槸{response.content}
+2020-11-05 12:00:29,017 - ERROR - 寮傚父鍒ゆ柇绫诲瀷锛歿key},鍒ゆ柇鍊兼槸{value}锛屽搷搴旀暟鎹槸{response.content}
+2020-11-05 12:00:29,017 - ERROR - 寮傚父鍒ゆ柇绫诲瀷锛歿key},鍒ゆ柇鍊兼槸{value}锛屽搷搴旀暟鎹槸{response.content}
+2020-11-05 12:00:29,017 - ERROR - 寮傚父鍒ゆ柇绫诲瀷锛歿key},鍒ゆ柇鍊兼槸{value}锛屽搷搴旀暟鎹槸{response.content}
+2020-11-05 12:00:29,017 - ERROR - 寮傚父鍒ゆ柇绫诲瀷锛歿key},鍒ゆ柇鍊兼槸{value}锛屽搷搴旀暟鎹槸{response.content}
+2020-11-05 12:00:29,017 - ERROR - 寮傚父鍒ゆ柇绫诲瀷锛歿key},鍒ゆ柇鍊兼槸{value}锛屽搷搴旀暟鎹槸{response.content}
+2020-11-05 12:03:22,957 - INFO - content鍒ゆ柇澶辫触鎴栧搷搴旀枃鏈笉鏄痡son鏍煎紡锛屽垽鏂被鍨嬫槸eq, 棰勬湡鍊硷細ok, content鐨刱ey鏄細msg,瀹為檯鍊硷細
+2020-11-05 12:03:22,957 - INFO - content鍒ゆ柇澶辫触鎴栧搷搴旀枃鏈笉鏄痡son鏍煎紡锛屽垽鏂被鍨嬫槸eq, 棰勬湡鍊硷細ok, content鐨刱ey鏄細msg,瀹為檯鍊硷細
+2020-11-05 12:03:22,957 - INFO - content鍒ゆ柇澶辫触鎴栧搷搴旀枃鏈笉鏄痡son鏍煎紡锛屽垽鏂被鍨嬫槸eq, 棰勬湡鍊硷細ok, content鐨刱ey鏄細msg,瀹為檯鍊硷細
+2020-11-05 12:03:22,957 - INFO - content鍒ゆ柇澶辫触鎴栧搷搴旀枃鏈笉鏄痡son鏍煎紡锛屽垽鏂被鍨嬫槸eq, 棰勬湡鍊硷細ok, content鐨刱ey鏄細msg,瀹為檯鍊硷細
+2020-11-05 12:03:22,957 - INFO - content鍒ゆ柇澶辫触鎴栧搷搴旀枃鏈笉鏄痡son鏍煎紡锛屽垽鏂被鍨嬫槸eq, 棰勬湡鍊硷細ok, content鐨刱ey鏄細msg,瀹為檯鍊硷細
+2020-11-05 12:03:22,957 - INFO - content鍒ゆ柇澶辫触鎴栧搷搴旀枃鏈笉鏄痡son鏍煎紡锛屽垽鏂被鍨嬫槸eq, 棰勬湡鍊硷細ok, content鐨刱ey鏄細msg,瀹為檯鍊硷細
+2020-11-05 12:03:22,957 - INFO - content鍒ゆ柇澶辫触鎴栧搷搴旀枃鏈笉鏄痡son鏍煎紡锛屽垽鏂被鍨嬫槸eq, 棰勬湡鍊硷細ok, content鐨刱ey鏄細msg,瀹為檯鍊硷細
+2020-11-05 12:03:22,957 - INFO - content鍒ゆ柇澶辫触鎴栧搷搴旀枃鏈笉鏄痡son鏍煎紡锛屽垽鏂被鍨嬫槸eq, 棰勬湡鍊硷細ok, content鐨刱ey鏄細msg,瀹為檯鍊硷細
+2020-11-05 12:03:22,957 - INFO - content鍒ゆ柇澶辫触鎴栧搷搴旀枃鏈笉鏄痡son鏍煎紡锛屽垽鏂被鍨嬫槸eq, 棰勬湡鍊硷細ok, content鐨刱ey鏄細msg,瀹為檯鍊硷細
+2020-11-05 12:03:22,957 - INFO - content鍒ゆ柇澶辫触鎴栧搷搴旀枃鏈笉鏄痡son鏍煎紡锛屽垽鏂被鍨嬫槸eq, 棰勬湡鍊硷細ok, content鐨刱ey鏄細msg,瀹為檯鍊硷細
+2020-11-05 12:03:22,958 - ERROR - 寮傚父鍒ゆ柇绫诲瀷锛歿key},鍒ゆ柇鍊兼槸{value}锛屽搷搴旀暟鎹槸{response.content}
+2020-11-05 12:03:22,958 - ERROR - 寮傚父鍒ゆ柇绫诲瀷锛歿key},鍒ゆ柇鍊兼槸{value}锛屽搷搴旀暟鎹槸{response.content}
+2020-11-05 12:03:22,958 - ERROR - 寮傚父鍒ゆ柇绫诲瀷锛歿key},鍒ゆ柇鍊兼槸{value}锛屽搷搴旀暟鎹槸{response.content}
+2020-11-05 12:03:22,958 - ERROR - 寮傚父鍒ゆ柇绫诲瀷锛歿key},鍒ゆ柇鍊兼槸{value}锛屽搷搴旀暟鎹槸{response.content}
+2020-11-05 12:03:22,958 - ERROR - 寮傚父鍒ゆ柇绫诲瀷锛歿key},鍒ゆ柇鍊兼槸{value}锛屽搷搴旀暟鎹槸{response.content}
+2020-11-05 12:03:22,958 - ERROR - 寮傚父鍒ゆ柇绫诲瀷锛歿key},鍒ゆ柇鍊兼槸{value}锛屽搷搴旀暟鎹槸{response.content}
+2020-11-05 12:03:22,958 - ERROR - 寮傚父鍒ゆ柇绫诲瀷锛歿key},鍒ゆ柇鍊兼槸{value}锛屽搷搴旀暟鎹槸{response.content}
+2020-11-05 12:03:22,958 - ERROR - 寮傚父鍒ゆ柇绫诲瀷锛歿key},鍒ゆ柇鍊兼槸{value}锛屽搷搴旀暟鎹槸{response.content}
+2020-11-05 12:03:22,958 - ERROR - 寮傚父鍒ゆ柇绫诲瀷锛歿key},鍒ゆ柇鍊兼槸{value}锛屽搷搴旀暟鎹槸{response.content}
+2020-11-05 12:03:22,958 - ERROR - 寮傚父鍒ゆ柇绫诲瀷锛歿key},鍒ゆ柇鍊兼槸{value}锛屽搷搴旀暟鎹槸{response.content}

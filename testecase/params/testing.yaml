@@ -1,0 +1,47 @@
+Collections:  # 必填
+    dec: "在线链接测试"   # 非必填
+    host: https://sandbox-lingji.jinhuiaa.com # 必填
+    header: { # 必填
+    "Authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC95ZGFwaS5saW5naGl0LmNvbSIsImF1ZCI6IjE1NzYwMzQ4MDgwMDAwMDA0MCIsImlhdCI6MTU4MzIwNDAwOSwiZXhwIjoxNjE0NzQwMDA5fQ.NWjUOE2kAaPbufulY0QdY2dFmAvRw2TtOlUcL1vW - xk"
+
+    }
+    parameters:
+      -
+        title: 用户信息  # 必填
+        url: /yqw/api/user/info  # 必填
+        method: get  # 必填
+      # get的data直接写  必填
+        data:
+          retimestamp: "1583204192555"
+          platform: "34"
+          channel: ""
+        validate:  # 必填
+          - eq:
+              - status_code
+              - 200
+      # 非必填
+        variables:  # 需要获取的变量值（本用例需要）
+          - login: # 提取变量的测试用例
+            - code_value
+            - data_value  # 变量名
+
+      # 非必填
+        relevance: # 提取出去的变量（提供其它用例）
+          id: content.data  # 变量名: 变量位置
+
+
+      -
+        title: 支付信息
+        url: /api/payments/config
+        method: post
+        data:
+          json:  # 如果data是json格式，需指定。必填
+            order_id: "ZSCS159538737200000060"
+           # channel: $code_value
+        validate:
+          - eq:
+              - content.msg
+              - ok
+          - contains:
+              - content.msg
+              - 失败

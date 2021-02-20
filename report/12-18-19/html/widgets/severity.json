@@ -1,0 +1,21 @@
+[ {
+  "uid" : "c2637ad1b2264e80",
+  "name" : "用户信息",
+  "time" : {
+    "start" : 1608289681605,
+    "stop" : 1608289682760,
+    "duration" : 1155
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "982b6c4fc8d57c56",
+  "name" : "我的社群课程",
+  "time" : {
+    "start" : 1608289682765,
+    "stop" : 1608289683102,
+    "duration" : 337
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]

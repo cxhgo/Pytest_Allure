@@ -1,0 +1,2 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:815 Starting new HTTPS connection (1): sandbox-lingji.jinhuiaa.com:443
+DEBUG    urllib3.connectionpool:connectionpool.py:396 https://sandbox-lingji.jinhuiaa.com:443 "GET /yqw/api/user/info?%7B%22retimestamp%22:%20%221583204192555%22,%20%22platform%22:%20%2234%22,%20%22channel%22:%20%22%22%7D HTTP/1.1" 200 None

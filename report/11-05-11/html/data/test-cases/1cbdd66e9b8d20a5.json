@@ -1,0 +1,114 @@
+{
+  "uid" : "1cbdd66e9b8d20a5",
+  "name" : "用户信息",
+  "fullName" : "testecase.case.test_test.Testtest#test_login",
+  "historyId" : "e8ca89f1aec976bcf879629f277e8337",
+  "time" : {
+    "start" : 1604545253737,
+    "stop" : 1604545254319,
+    "duration" : 582
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "请求信息",
+      "time" : {
+        "start" : 1604545253738,
+        "stop" : 1604545254319,
+        "duration" : 581
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2daaed20b1d504a",
+        "name" : "请求地址：",
+        "source" : "2daaed20b1d504a.attach",
+        "type" : "text/plain",
+        "size" : 53
+      }, {
+        "uid" : "47db7ef6d9e51b0a",
+        "name" : "请求方法",
+        "source" : "47db7ef6d9e51b0a.attach",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "1a54ea1c16ad5990",
+        "name" : "请求头：",
+        "source" : "1a54ea1c16ad5990.attach",
+        "type" : "text/plain",
+        "size" : 234
+      }, {
+        "uid" : "cabac759b3de9701",
+        "name" : "请求data：",
+        "source" : "cabac759b3de9701.attach",
+        "type" : "text/plain",
+        "size" : 65
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test接口"
+  }, {
+    "name" : "epic",
+    "value" : "xxx"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testecase.case"
+  }, {
+    "name" : "suite",
+    "value" : "test_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testtest"
+  }, {
+    "name" : "host",
+    "value" : "6AALIUSAHJS1WHR"
+  }, {
+    "name" : "thread",
+    "value" : "9176-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testecase.case.test_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "param",
+    "value" : "{'url': 'https://sandbox-lingji.jinhuiaa.com/yqw/api/user/info', 'method': 'get', 'data': \"{'retimestamp': '1583204192555', 'platform': '34', 'channel': ''}\", 'header': {'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC95ZGFwaS5saW5naGl0LmNvbSIsImF1ZCI6IjE1NzYwMzQ4MDgwMDAwMDA0MCIsImlhdCI6MTU4MzIwNDAwOSwiZXhwIjoxNjE0NzQwMDA5fQ.NWjUOE2kAaPbufulY0QdY2dFmAvRw2TtOlUcL1vW - xk'}, 'validate': \"[{'eq': ['status_code', 200]}]\", 'relevance': \"{'id': 'content.data'}\", 'variables': \"[{'login': ['code_value', 'data_value']}]\"}"
+  }, {
+    "name" : "title",
+    "value" : "'用户信息'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1cbdd66e9b8d20a5.json",
+  "parameterValues" : [ "{'url': 'https://sandbox-lingji.jinhuiaa.com/yqw/api/user/info', 'method': 'get', 'data': \"{'retimestamp': '1583204192555', 'platform': '34', 'channel': ''}\", 'header': {'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC95ZGFwaS5saW5naGl0LmNvbSIsImF1ZCI6IjE1NzYwMzQ4MDgwMDAwMDA0MCIsImlhdCI6MTU4MzIwNDAwOSwiZXhwIjoxNjE0NzQwMDA5fQ.NWjUOE2kAaPbufulY0QdY2dFmAvRw2TtOlUcL1vW - xk'}, 'validate': \"[{'eq': ['status_code', 200]}]\", 'relevance': \"{'id': 'content.data'}\", 'variables': \"[{'login': ['code_value', 'data_value']}]\"}", "'用户信息'" ]
+}

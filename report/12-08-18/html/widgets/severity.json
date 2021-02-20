@@ -1,0 +1,31 @@
+[ {
+  "uid" : "f5bde3fbc3427cc9",
+  "name" : "用户信息",
+  "time" : {
+    "start" : 1607425002387,
+    "stop" : 1607425003156,
+    "duration" : 769
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5115ff895ea1e98f",
+  "name" : "我的社群课程",
+  "time" : {
+    "start" : 1607425003175,
+    "stop" : 1607425003468,
+    "duration" : 293
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1173f55419acd9a2",
+  "name" : "支付信息",
+  "time" : {
+    "start" : 1607424484330,
+    "stop" : 1607424484360,
+    "duration" : 30
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

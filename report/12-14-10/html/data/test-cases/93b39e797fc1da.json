@@ -1,0 +1,67 @@
+{
+  "uid" : "93b39e797fc1da",
+  "name" : "test_login",
+  "time" : {
+    "start" : 1607913320142,
+    "stop" : 1607913320142,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "KeyError: 'title'",
+  "statusTrace" : "self = <allure_pytest.listener.AllureListener object at 0x0000000004868588>\nitem = <Function test_login>\n\n    @pytest.hookimpl(hookwrapper=True)\n    def pytest_runtest_setup(self, item):\n        if not self._cache.get(item.nodeid):\n            uuid = self._cache.push(item.nodeid)\n            test_result = TestResult(name=item.name, uuid=uuid, start=now(), stop=now())\n            self.allure_logger.schedule_test(uuid, test_result)\n    \n        yield\n    \n        uuid = self._cache.get(item.nodeid)\n        test_result = self.allure_logger.get_test(uuid)\n        for fixturedef in _test_fixtures(item):\n            group_uuid = self._cache.get(fixturedef)\n            if not group_uuid:\n                group_uuid = self._cache.push(fixturedef)\n                group = TestResultContainer(uuid=group_uuid)\n                self.allure_logger.start_group(group_uuid, group)\n            self.allure_logger.update_group(group_uuid, children=uuid)\n        params = item.callspec.params if hasattr(item, 'callspec') else {}\n    \n>       test_result.name = allure_name(item, params)\n\nd:\\python3.6\\lib\\site-packages\\allure_pytest\\listener.py:88: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nitem = <Function test_login>, parameters = {}\n\n    def allure_name(item, parameters):\n        name = escape_name(item.name)\n        title = allure_title(item)\n>       return title.format(**parameters) if title else name\nE       KeyError: 'title'\n\nd:\\python3.6\\lib\\site-packages\\allure_pytest\\utils.py:112: KeyError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "听芝部分接口"
+  }, {
+    "name" : "epic",
+    "value" : "接口测试"
+  }, {
+    "name" : "feature",
+    "value" : "test接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testecase.case"
+  }, {
+    "name" : "suite",
+    "value" : "test_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testtest"
+  }, {
+    "name" : "host",
+    "value" : "6AALIUSAHJS1WHR"
+  }, {
+    "name" : "thread",
+    "value" : "9500-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testecase.case.test_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "93b39e797fc1da.json",
+  "parameterValues" : [ ]
+}

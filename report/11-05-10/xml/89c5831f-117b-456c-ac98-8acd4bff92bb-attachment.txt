@@ -1,0 +1,1 @@
+ERROR    root:com_manage.py:199 异常判断类型：{key},判断值是{value}，响应数据是{response.content}

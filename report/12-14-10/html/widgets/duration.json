@@ -1,0 +1,31 @@
+[ {
+  "uid" : "93b39e797fc1da",
+  "name" : "test_login",
+  "time" : {
+    "start" : 1607913320142,
+    "stop" : 1607913320142,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "57d1ce4e733a50cc",
+  "name" : "用户信息",
+  "time" : {
+    "start" : 1607913096388,
+    "stop" : 1607913097064,
+    "duration" : 676
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c3ee6894c1bf1eab",
+  "name" : "我的社群课程",
+  "time" : {
+    "start" : 1607913097070,
+    "stop" : 1607913097373,
+    "duration" : 303
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

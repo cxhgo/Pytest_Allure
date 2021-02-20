@@ -1,0 +1,162 @@
+{
+  "uid" : "7970b7a6feef617c",
+  "name" : "用户信息",
+  "fullName" : "testecase.case.test_test.Testtest#test_login",
+  "historyId" : "e8ca89f1aec976bcf879629f277e8337",
+  "time" : {
+    "start" : 1604545038951,
+    "stop" : 1604545039553,
+    "duration" : 602
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "请求信息",
+      "time" : {
+        "start" : 1604545038952,
+        "stop" : 1604545039552,
+        "duration" : 600
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "10d6fd32e0002a5d",
+        "name" : "请求地址：",
+        "source" : "10d6fd32e0002a5d.attach",
+        "type" : "text/plain",
+        "size" : 53
+      }, {
+        "uid" : "9c0c946ffecdc010",
+        "name" : "请求方法",
+        "source" : "9c0c946ffecdc010.attach",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "abbae55b090d7430",
+        "name" : "请求头：",
+        "source" : "abbae55b090d7430.attach",
+        "type" : "text/plain",
+        "size" : 234
+      }, {
+        "uid" : "c26ff199cd7cf29f",
+        "name" : "请求data：",
+        "source" : "c26ff199cd7cf29f.attach",
+        "type" : "text/plain",
+        "size" : 65
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "1ec59e5086bc1011",
+      "name" : "log",
+      "source" : "1ec59e5086bc1011.txt",
+      "type" : "text/plain",
+      "size" : 361
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test接口"
+  }, {
+    "name" : "epic",
+    "value" : "xxx"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testecase.case"
+  }, {
+    "name" : "suite",
+    "value" : "test_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testtest"
+  }, {
+    "name" : "host",
+    "value" : "6AALIUSAHJS1WHR"
+  }, {
+    "name" : "thread",
+    "value" : "6096-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testecase.case.test_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "param",
+    "value" : "{'url': 'https://sandbox-lingji.jinhuiaa.com/yqw/api/user/info', 'method': 'get', 'data': \"{'retimestamp': '1583204192555', 'platform': '34', 'channel': ''}\", 'header': {'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC95ZGFwaS5saW5naGl0LmNvbSIsImF1ZCI6IjE1NzYwMzQ4MDgwMDAwMDA0MCIsImlhdCI6MTU4MzIwNDAwOSwiZXhwIjoxNjE0NzQwMDA5fQ.NWjUOE2kAaPbufulY0QdY2dFmAvRw2TtOlUcL1vW - xk'}, 'validate': \"[{'eq': ['status_code', 200]}]\", 'relevance': \"{'id': 'content.data'}\", 'variables': \"[{'login': ['code_value', 'data_value']}]\"}"
+  }, {
+    "name" : "title",
+    "value" : "'用户信息'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a7294e6e9104a948",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604544850193,
+        "stop" : 1604544850845,
+        "duration" : 652
+      }
+    }, {
+      "uid" : "bbe8bc247ea8821d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604544847764,
+        "stop" : 1604544848488,
+        "duration" : 724
+      }
+    }, {
+      "uid" : "867877c99affba64",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604544435946,
+        "stop" : 1604544436572,
+        "duration" : 626
+      }
+    }, {
+      "uid" : "311e64f7bdb59411",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604543388402,
+        "stop" : 1604543388935,
+        "duration" : 533
+      }
+    }, {
+      "uid" : "1375f0cea716fb31",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604543142343,
+        "stop" : 1604543143357,
+        "duration" : 1014
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7970b7a6feef617c.json",
+  "parameterValues" : [ "{'url': 'https://sandbox-lingji.jinhuiaa.com/yqw/api/user/info', 'method': 'get', 'data': \"{'retimestamp': '1583204192555', 'platform': '34', 'channel': ''}\", 'header': {'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC95ZGFwaS5saW5naGl0LmNvbSIsImF1ZCI6IjE1NzYwMzQ4MDgwMDAwMDA0MCIsImlhdCI6MTU4MzIwNDAwOSwiZXhwIjoxNjE0NzQwMDA5fQ.NWjUOE2kAaPbufulY0QdY2dFmAvRw2TtOlUcL1vW - xk'}, 'validate': \"[{'eq': ['status_code', 200]}]\", 'relevance': \"{'id': 'content.data'}\", 'variables': \"[{'login': ['code_value', 'data_value']}]\"}", "'用户信息'" ]
+}

@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Dec 14 11:59:13 CST 2020","Mon Dec 14 11:59:13 CST 2020","298","testecase.case","test_test","Testtest","","","我的社群课程",""
+"passed","Mon Dec 14 11:39:22 CST 2020","Mon Dec 14 11:39:22 CST 2020","287","testecase.case","test_test","Testtest","","","我的社群课程",""
+"passed","Mon Dec 14 11:39:21 CST 2020","Mon Dec 14 11:39:22 CST 2020","776","testecase.case","test_test","Testtest","","","用户信息",""
+"passed","Mon Dec 14 11:59:12 CST 2020","Mon Dec 14 11:59:13 CST 2020","776","testecase.case","test_test","Testtest","","","用户信息",""

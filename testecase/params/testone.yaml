@@ -1,0 +1,64 @@
+Collections:  # 必填
+    dec: "听芝关联接口测试"   # 非必填
+    host: https://sandbox-app-api.yiqiwen.cn # 必填
+    header: { # 必填
+    "YQW-Token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC95ZGFwaS5saW5naGl0LmNvbSIsImF1ZCI6IjE1NTE3NzM1MTUwMDAwMDA4MCIsImlhdCI6MTYwMzg1NTAzMiwiZXhwIjoxNjM1MzkxMDMyfQ.rx2wMPWcpwzUzKHgCkF3rxS8DCBDaLThyOV98I7sSAs",
+    "API-Version":"v1",
+    "App":"Android_Lingji_Dashi",
+    "Authorization":'hmac username="android_lingjidashi",algorithm="hmac-sha1",headers="date request-line",signature="OLvbrtAA7p0bkhsuhuZT2nRBgrk="',
+    "User-Agent":"Mozilla/5.0 (Linux; U; Android 6.0; zh-cn; Redmi Note 4X Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36",
+    "AppID":"10086",
+    "Version":"2.0.0",
+    "System":"Xiaomi#Redmi Note 4X#nikel#23#6.0",
+    "Channel":"lingji_teacher",
+    "DeviceId":"4c672cf4c2693bb6",
+    "platform":"23",
+    "Host":"sandbox-app-api.yiqiwen.cn",
+    "Package-Name":"com.mmc.linghit"
+    }
+    parameters:
+      -
+        title: 用户信息  # 必填
+        url: /v1/user/information  # 必填
+        method: get  # 必填
+      # get的data直接写  必填
+        data:
+
+
+        validate:  # 必填
+          - eq:
+              - status_code
+              - 200
+          - eq:
+              - content.msg
+              - 处理成功
+
+#      # 非必填
+#        variables:  # 需要获取的变量值（本用例需要）
+#          - login: # 提取变量的测试用例
+#            - code_value
+#            - data_value  # 变量名
+
+      # 非必填
+        relevance: # 提取出去的变量（提供其它用例）
+          uid: content.data[uid]  # 变量名: 变量位置
+
+
+      -
+        title: 我的社群课程
+        url: /v1/community/course/my/list
+        method: get
+        data:
+          json:  # 如果data是json格式，需指定。必填
+            uid : $uid
+            page: "1"
+        validate:
+          - eq:
+              - status_code
+              - 200
+          - eq:
+              - content.msg
+              - 处理成功
+        variables:  # 需要获取的变量值
+          - testone: # 提取变量的测试用例
+              - uid  # 变量名

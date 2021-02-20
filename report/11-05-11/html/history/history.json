@@ -1,0 +1,41 @@
+{
+  "e8ca89f1aec976bcf879629f277e8337" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c019d59d7e53e891",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604548494320,
+        "stop" : 1604548494952,
+        "duration" : 632
+      }
+    } ]
+  },
+  "c6b2b00b21a70dd148388523465bf213" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7cbd26bd45f19675",
+      "status" : "broken",
+      "statusDetails" : "TypeError: exceptions must derive from BaseException",
+      "time" : {
+        "start" : 1604548494957,
+        "stop" : 1604548494988,
+        "duration" : 31
+      }
+    } ]
+  }
+}

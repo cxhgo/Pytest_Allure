@@ -1,0 +1,41 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testecase.case",
+    "children" : [ {
+      "name" : "test_test",
+      "children" : [ {
+        "name" : "Testtest",
+        "children" : [ {
+          "name" : "用户信息",
+          "uid" : "7970b7a6feef617c",
+          "parentUid" : "d57f4cf840ab94bf1b753b7b4f681716",
+          "status" : "passed",
+          "time" : {
+            "start" : 1604545038951,
+            "stop" : 1604545039553,
+            "duration" : 602
+          },
+          "flaky" : false,
+          "parameters" : [ "{'url': 'https://sandbox-lingji.jinhuiaa.com/yqw/api/user/info', 'method': 'get', 'data': \"{'retimestamp': '1583204192555', 'platform': '34', 'channel': ''}\", 'header': {'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC95ZGFwaS5saW5naGl0LmNvbSIsImF1ZCI6IjE1NzYwMzQ4MDgwMDAwMDA0MCIsImlhdCI6MTU4MzIwNDAwOSwiZXhwIjoxNjE0NzQwMDA5fQ.NWjUOE2kAaPbufulY0QdY2dFmAvRw2TtOlUcL1vW - xk'}, 'validate': \"[{'eq': ['status_code', 200]}]\", 'relevance': \"{'id': 'content.data'}\", 'variables': \"[{'login': ['code_value', 'data_value']}]\"}", "'用户信息'" ]
+        }, {
+          "name" : "支付信息",
+          "uid" : "58a8dadce93ac9ef",
+          "parentUid" : "d57f4cf840ab94bf1b753b7b4f681716",
+          "status" : "broken",
+          "time" : {
+            "start" : 1604545039558,
+            "stop" : 1604545039589,
+            "duration" : 31
+          },
+          "flaky" : true,
+          "parameters" : [ "{'url': 'https://sandbox-lingji.jinhuiaa.com/api/payments/config', 'method': 'post', 'data': \"{'json': {'order_id': 'ZSCS159538737200000060'}}\", 'header': {'Authorization': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC95ZGFwaS5saW5naGl0LmNvbSIsImF1ZCI6IjE1NzYwMzQ4MDgwMDAwMDA0MCIsImlhdCI6MTU4MzIwNDAwOSwiZXhwIjoxNjE0NzQwMDA5fQ.NWjUOE2kAaPbufulY0QdY2dFmAvRw2TtOlUcL1vW - xk'}, 'validate': \"[{'eq': ['content.msg', 'ok']}, {'contains': ['content.msg', '失败']}]\"}", "'支付信息'" ]
+        } ],
+        "uid" : "d57f4cf840ab94bf1b753b7b4f681716"
+      } ],
+      "uid" : "4b469129a65dc20fd699d5c35c366724"
+    } ],
+    "uid" : "681a1cefde4bce84dac51028cefa89af"
+  } ]
+}
