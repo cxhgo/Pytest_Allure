@@ -45,4 +45,4 @@ class Testtest:
 
 if __name__ == '__main__':
     # -s：显示程序中的print/logging输出
-    pytest.main(["-s", "test_test.py","-q","--alluredir","API_Pytest_Allure/report"])
+    pytest.main(["-s", "test_test.py"])
